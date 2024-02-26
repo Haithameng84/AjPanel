@@ -1,6 +1,6 @@
 <ajp_menu title="panel (by Haitham )" mode="grid" width="1920" height="1080" shade="yes" font_size="50" title_bg="#11332233" num_fg=" " num_bg="#000000" title1_fg=" " title1_bg="#000000" title2_fg="# " title2_bg="#000000">
 	<item name="Plugins Browser" info="تصفح البلجنات من ajpanel " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/infopanel.png">ajp_plugBr</item>
-	<submenu title="Plugins"  info="( plugins install) " icon="/media/hdd/AJPanel_Backup/icons/plugins.png" shade="yes" mode="grid" width="1920" height="1080" fg=" " bg=" " font_size="35" align_items="left" title_fg=" " title_bg=" " title_font_size="50" cursor_fg=" " cursor_bg=" ">
+	<submenu title="Plugins"  info="( تثبيت البلجنات) " icon="/media/hdd/AJPanel_Backup/icons/plugins.png" shade="yes" mode="grid" width="1920" height="1080" fg=" " bg=" " font_size="35" align_items="left" title_fg=" " title_bg=" " title_font_size="50" cursor_fg=" " cursor_bg=" ">
 			<item name="AjPanel" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/aj.png">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
 			<item name="ArabicSavior" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ar.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh</item>
 			<item name="Ansite" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ansite.png">wget https://raw.githubusercontent.com/MOHAMED19OS/Download/main/Ansite/installer.sh -qO - | /bin/sh</item>
