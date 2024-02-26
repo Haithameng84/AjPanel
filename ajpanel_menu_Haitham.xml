@@ -1,5 +1,5 @@
-<ajp_menu title="panel (by Haitham ðŸ‡®ðŸ‡¶)" mode="grid" width="1920" height="1080" shade="yes" font_size="50" title_bg="#11332233" num_fg=" " num_bg="#000000" title1_fg=" " title1_bg="#000000" title2_fg="# " title2_bg="#000000">
-	<item name="Plugins Browser" info="ØªØµÙØ­ Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ø¨Ù„Ø¬Ù†Ø§Øª " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/infopanel.png">ajp_plugBr</item>
+<ajp_menu title="panel (by Haitham )" mode="grid" width="1920" height="1080" shade="yes" font_size="50" title_bg="#11332233" num_fg=" " num_bg="#000000" title1_fg=" " title1_bg="#000000" title2_fg="# " title2_bg="#000000">
+	<item name="Plugins Browser" info="تصفح البلجنات من ajpanel " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/infopanel.png">ajp_plugBr</item>
 	<submenu title="Plugins"  info="( plugins install) " icon="/media/hdd/AJPanel_Backup/icons/plugins.png" shade="yes" mode="grid" width="1920" height="1080" fg=" " bg=" " font_size="35" align_items="left" title_fg=" " title_bg=" " title_font_size="50" cursor_fg=" " cursor_bg=" ">
 			<item name="AjPanel" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/aj.png">wget https://raw.githubusercontent.com/biko-73/AjPanel/main/installer.sh -O - | /bin/sh</item>
 			<item name="ArabicSavior" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ar.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/ArabicSavior/main/installer.sh -O - | /bin/sh</item>
@@ -44,10 +44,10 @@
 			<item name="weatherplugin" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/we.png">opkg install enigma2-plugin-extensions-weatherplugin</item>
 		</submenu>
 
-	<item name="/media/" info="ØªØµÙØ­ Ù…Ù„ÙØ§Øª media xx" shade="yes" icon="/media/hdd/AJPanel_Backup/icons/hdd.png">/media</item>
-	<item name="/etc/" info="ØªØµÙØ­ Ù…Ù„ÙØ§Øª  etc " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/hdd.png">/etc</item>
-	<item name="Movies Browser" info="ØªØµÙØ­ Ù…Ù„ÙØ§Øª Ø§Ù„ØªØ³Ø¬ÙŠÙ„ " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/audiovideo.png">ajp_movie</item>
-	<item name="Bouquet Editor" info="ØªØ¹Ø¯ÙŠÙ„ Ù‚Ø§Ø¦Ù…Ø© Ø§Ù„Ù‚Ù†ÙˆØ§Øª " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/Bouquet Editor.png">ajp_bouq</item>
+	<item name="/media/" info="تصفح ملفات media xx" shade="yes" icon="/media/hdd/AJPanel_Backup/icons/hdd.png">/media</item>
+	<item name="/etc/" info="تصفح ملفات  etc " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/hdd.png">/etc</item>
+	<item name="Movies Browser" info="تصفح ملفات التسجيل " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/audiovideo.png">ajp_movie</item>
+	<item name="Bouquet Editor" info="تعديل قائمة القنوات " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/Bouquet Editor.png">ajp_bouq</item>
 	<submenu title="Python Packages" info="Install Python Packages (for Python-2 and Python-3)" line_gap="40" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/python package.png">
 		<item name="Install Python-2 Packages" icon="/media/hdd/AJPanel_Backup/icons/python.png" ask="">
 			opkg install xz
@@ -180,7 +180,7 @@ opkg install python3 gstreamer1.0-plugins-bad-meta
 		<item name="opkg-update" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update.sh -O - | /bin/sh</item>
 		<item name="opkg-upgrade" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-upgrade.sh -O - | /bin/sh</item>
 		<item name="opkg-update-upgrade" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_opkg-update-upgrade.sh -O - | /bin/sh</item>
-		<item name="ØªØ«Ø¨ÙŠØª Ù…ÙƒØªØ¨Ù‡ Ø§Ù„Ù€Ù€ wget" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">opkg install --force-reinstall wget</item>
+		<item name="تثبيت مكتبه الــ wget" icon="/media/hdd/AJPanel_Backup/icons/opkg.png" ask="yes">opkg install --force-reinstall wget</item>
 	</submenu>
 
 	<submenu title="free " shade="yes" mode="grid" width="1920" height="1080" fg=" " bg=" " font_size="35" title_fg=" " title_bg=" " title_font_size="50" cursor_fg=" " cursor_bg=" " icon="/media/hdd/AJPanel_Backup/icons/free.png">
@@ -313,8 +313,8 @@ mount /dev/sda1 /media/hdd
 exit</item>
 		<item name="fix-ipk-package-installation" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-ipk-package-installation.sh -O - | /bin/sh</item>
 		<item name="fix-xtraevent-download-place" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_fix-xtraevent-download-place.sh -O - | /bin/sh</item>
-		<item name="open atv devel" info="ØªØ±Ù‚ÙŠØ© ØµÙˆØ±Ø© openatv (7.3-7.4) Ù„ØµÙˆØ±Ø© openatv (devel 7.4-7.5 )" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -O - -q https://feeds2.mynonpublic.com/devel-feed | bash</item>
-		<item name="fix sound ipaudio" info=" ØªØ­Ù…ÙŠÙ„ Ø§Ù„Ø¨Ø§ÙƒØ¬Ø§Øª Ù„Ø¹Ù…Ù„ Ø§Ù„ØµÙˆØª ipaudio " icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">opkg update &amp;&amp; opkg install --force-reinstall libasound2</item>
+		<item name="open atv devel" info="ترقية صورة openatv (7.3-7.4) لصورة openatv (devel 7.4-7.5 )" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -O - -q https://feeds2.mynonpublic.com/devel-feed | bash</item>
+		<item name="fix sound ipaudio" info=" تحميل الباكجات لعمل الصوت ipaudio " icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">opkg update &amp;&amp; opkg install --force-reinstall libasound2</item>
 		<item name="hdd-create-swapfile" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/all/_hdd-create-swapfile-1gb.sh -O - | /bin/sh</item>
 		<item name="download epg from xtraevent py3" icon="/media/hdd/AJPanel_Backup/icons/fix.png" ask="yes">opkg update opkg install python3-sqlite3
 opkg install python3-requests
@@ -348,9 +348,9 @@ opkg install python-sqlite3</item>
 		<item name="remove-tuner-settings" icon="/media/hdd/AJPanel_Backup/icons/remove.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/scripts/-/raw/main/remove/_remove-tuner-settings.sh -O - | /bin/sh</item>
 	</submenu>
 
-	<submenu title="Backup and Restore Settings Menu" info=" ØªØ®Ø²ÙŠÙ† ÙˆØ§Ø³ØªØ¹Ø§Ø¯Ø© Ù†Ø³Ø®Ù‡ Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© " shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/backup_system.png" bg=" " title_bg=" ">
-		<item name="Backup &amp; Restore" info=" ØªØ®Ø²ÙŠÙ† ÙˆØ§Ø³ØªØ¹Ø§Ø¯Ø© Ù†Ø³Ø®Ù‡ Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© Ù…Ù† ajpanel " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/backup_restore.png">ajp_bakup</item>
-		<submenu title="Backup Settings Menu" info=" ØªØ®Ø²ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© " shade="yes" mode="grid" width="1920" height="1080" bg=" " title_bg=" " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">
+	<submenu title="Backup and Restore Settings Menu" info=" تخزين واستعادة نسخه احتياطية " shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/backup_system.png" bg=" " title_bg=" ">
+		<item name="Backup &amp; Restore" info=" تخزين واستعادة نسخه احتياطية من ajpanel " shade="yes" icon="/media/hdd/AJPanel_Backup/icons/backup_restore.png">ajp_bakup</item>
+		<submenu title="Backup Settings Menu" info=" تخزين نسخه احتياطية " shade="yes" mode="grid" width="1920" height="1080" bg=" " title_bg=" " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">
 			<item name="xtra Event" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">WORD='xtraEvent'; BACKUP='/hdd/AJPanel_Backup/settings_backup_xtraEvent'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
 			<item name="ipaudio Server" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">cp -f /etc/enigma2/ipaudio.json /media/hdd/AJPanel_Backup/ipaudio.json</item>
 			<item name="ipaudio Pro Server" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">cp -f /etc/enigma2/IPAudioPro.json /media/hdd/AJPanel_Backup/IPAudioPro.json</item>
@@ -379,7 +379,7 @@ opkg install python-sqlite3</item>
 			<item name="VTI VWeather3" icon="/media/hdd/AJPanel_Backup/icons/backupadd.png">WORD='VWeather3'; BACKUP='/hdd/AJPanel_Backup/settings_backup_VWeather3'; grep $WORD '/etc/enigma2/settings' &gt; $BACKUP</item>
 		</submenu>
 
-		<submenu title="Restore Settings Menu" info=" Ø§Ø³ØªØ¹Ø§Ø¯Ø© Ø§Ù„Ù†Ø³Ø®Ø© Ø§Ù„Ø§Ø­ØªÙŠØ§Ø·ÙŠØ© " shade="yes" mode="grid" width="1920" height="1080" bg=" " title_fg=" " title_bg=" " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">
+		<submenu title="Restore Settings Menu" info=" استعادة النسخة الاحتياطية " shade="yes" mode="grid" width="1920" height="1080" bg=" " title_fg=" " title_bg=" " align_items="left" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">
 			<item name="xtra Event " icon="/media/hdd/AJPanel_Backup/icons/backupr.png">WORD='xtraEvent'; BACKUP='/hdd/AJPanel_Backup/settings_backup_xtraEvent'; SETF='/etc/enigma2/settings'; TF='/tmp/tmpFile'; grep -v $WORD $SETF &gt; $TF &amp;&amp; cat $BACKUP &gt;&gt; $TF &amp;&amp; init 4 &amp;&amp; sleep 3 &amp;&amp; mv -f $TF $SETF &amp;&amp; init 3</item>
 			<item name="ipaudio Server" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">cp -f /media/hdd/AJPanel_Backup/ipaudio.json /etc/enigma2/ipaudio.json</item>
 			<item name="ipaudio Pro Server" icon="/media/hdd/AJPanel_Backup/icons/backupr.png">cp -f /media/hdd/AJPanel_Backup/IPAudioPro.json /etc/enigma2/IPAudioPro.json</item>
@@ -506,7 +506,7 @@ opkg install python-sqlite3</item>
 			<item name="youvix-xe-mod-hamdy" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/skins/-/raw/main/openvix/youvix-xe-mod-hamdy.sh -O - | /bin/sh</item>
 		</submenu>
 
-		<submenu title="spinner" info="(ØªØºÙŠÙŠØ± Ø´Ø¹Ø§Ø± Ø§Ù„Ù…ØªØ­Ø±Ùƒ Ø§Ù„Ù…ÙˆØ¬ÙˆØ¯ Ø§Ø¹Ù„Ù‰ Ø§Ù„Ø´Ø§Ø´Ø© ÙŠØ³Ø§Ø±Ø§ Ø¹Ù†Ø¯ ÙƒÙ„ Ø§Ù‚Ù„Ø§Ø¹ Ø¬Ø¯ÙŠØ¯ )" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" bg="" title_fg=" " title_bg=" " align_items="left">
+		<submenu title="spinner" info="(تغيير شعار المتحرك الموجود اعلى الشاشة يسارا عند كل اقلاع جديد )" shade="yes" mode="grid" width="1920" height="1080" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" bg="" title_fg=" " title_bg=" " align_items="left">
 			<item name="barcelona" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-barcelona-1.sh -O - | /bin/sh</item>
 			<item name="bayern-munich" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-bayern-munich-1.sh -O - | /bin/sh</item>
 			<item name="chelsea" icon="/media/hdd/AJPanel_Backup/icons/spinner.png" ask="yes">wget -q "--no-check-certificate" https://gitlab.com/eliesat/display/-/raw/main/spinner/spinner-chelsea-1.sh -O - | /bin/sh </item>
