@@ -24,7 +24,7 @@
 			<item name="openmultiboot-enhanced-by-e2turk" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/opm.png">wget https://raw.githubusercontent.com/e2TURK/omb-enhanced/main/install.sh -qO - | /bin/sh</item>
 			<item name="RaedQuickSignal" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/rqs.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/fairbird/RaedQuickSignal/main/installer.sh -O - | /bin/sh</item>
 			<item name="speedtest" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/speed.png">wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py -qO - | python</item>
-			<item name="SubsSupport" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/sub.png">wget https://raw.githubusercontent.com/biko-73/SubsSupport/main/installer.sh -qO - | /bin/sh</item>
+			<item name="SubsSupport" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/sub.png">wget -q "--no-check-certificate" https://raw.githubusercontent.com/popking159/ssupport/main/subssupport-install.sh -O - | /bin/sh</item>
 			<item name="Sherlockmod" icon="/media/hdd/AJPanel_Backup/icons/sherlock.png" info="(&#1575;&#1610;&#1606;&#1601;&#1608;&#1576;&#1575;&#1585; &#1575;&#1590;&#1575;&#1601;&#1610; )" ask="yes">wget https://raw.githubusercontent.com/biko-73/Sherlockmod/main/installer.sh -O - | /bin/sh</item>
 			<item name="TheWeather" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/we.png">wget https://raw.githubusercontent.com/biko-73/TheWeather/main/installer.sh -qO - | /bin/sh</item>
 			<item name="TSmedia" ask="yes" icon="/media/hdd/AJPanel_Backup/icons/ts.png">wget https://raw.githubusercontent.com/biko-73/TSmedia/main/installer.sh -O - | /bin/sh</item>
